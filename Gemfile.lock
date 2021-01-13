@@ -1,4 +1,4 @@
-GEM
+          GEM
   remote: https://rubygems.org/
   specs:
     actioncable (6.1.1)
@@ -32,6 +32,7 @@ GEM
       activerecord (= 6.1.1)
       activestorage (= 6.1.1)
       activesupport (= 6.1.1)
+      nokogiri (>= 1.8.5)
     actionview (6.1.1)
       activesupport (= 6.1.1)
       builder (~> 3.1)
@@ -150,11 +151,15 @@ GEM
     mime-types-data (3.2020.1104)
     mimemagic (0.3.5)
     mini_mime (1.0.2)
+    mini_portile2 (2.5.0)
     minitest (5.14.3)
     multi_json (1.15.0)
     netrc (0.11.0)
     nio4r (2.5.4)
-    nokogiri (1.11.1-x86_64-darwin)
+    nokogiri (1.11.1)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
+    nokogiri (1.11.1-x86_64-linux)
       racc (~> 1.4)
     pg (1.2.3)
     pry (0.12.2)
