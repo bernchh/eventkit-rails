@@ -25,7 +25,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'bcrypt'
-gem "active_model_serializers"
+gem "active_model_serializers", '~> 0.9.0'
 gem "ember-rails"
 gem 'ember-source', '~> 1.11.1'
 gem 'ember-data-source'
