@@ -1,4 +1,4 @@
-          GEM
+GEM
   remote: https://rubygems.org/
   specs:
     actioncable (6.1.1)
@@ -158,6 +158,8 @@
     nio4r (2.5.4)
     nokogiri (1.11.1)
       mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
+    nokogiri (1.11.1-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.11.1-x86_64-linux)
       racc (~> 1.4)
