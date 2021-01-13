@@ -17,7 +17,7 @@ end
 gem 'unicorn'
 gem 'json'
 gem 'bourbon'
-gem 'rails', '>= 6.0.0'
+gem 'rails', '~> 4.0.0'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
@@ -27,7 +27,7 @@ gem 'jbuilder'
 gem 'bcrypt'
 gem "active_model_serializers", '~> 0.9.0'
 gem "ember-rails"
-gem 'ember-source', '~> 1.11.1'
+gem 'ember-source'
 gem 'ember-data-source'
 gem 'ember-handlebars-template'
 
@@ -35,4 +35,4 @@ group :doc do
 	gem 'sdoc', require: false
 end
 
-ruby "3.0.0"
+ruby "2.6.0"
