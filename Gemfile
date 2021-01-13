@@ -25,9 +25,9 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'bcrypt'
-gem "active_model_serializers", '~> 0.9.0'
+gem "active_model_serializers"#, '~> 0.9.0'
 gem "ember-rails"
-gem 'ember-source'
+gem 'ember-source'#, '~> 1.11.1'
 gem 'ember-data-source'
 gem 'ember-handlebars-template'
 
@@ -35,4 +35,4 @@ group :doc do
 	gem 'sdoc', require: false
 end
 
-ruby "2.6.0"
+ruby "2.6.3"
