@@ -30,9 +30,10 @@ gem "ember-rails"
 gem 'ember-source'#, '~> 1.11.1'
 gem 'ember-data-source'
 gem 'ember-handlebars-template'
+gem 'bigdecimal', '1.3.5'
 
 group :doc do
 	gem 'sdoc', require: false
 end
 
-ruby "2.6.6"
+ruby "2.5.8"
